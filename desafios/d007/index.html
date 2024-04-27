@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Desafio 007</title>
+</head>
+<body>
+    <h1>Imagens flexiveis</h1>
+    <hr>
+    <p> <em>Você está vendo a imagem completa?</em> <strong>Experimente ampliar o tamanho da sua janela</strong> para aproveitar a melhor experiência.</p>
+
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/tucano300.PNG" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/tucano600.PNG" type="image/png">
+        <img src="imagens/tucano1000.PNG" alt="Foto de um tucano">
+    </picture>
+
+</body>
+</html>

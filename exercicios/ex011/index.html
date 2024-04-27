@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture> <!--Permite a criação de vários "SOURCE", várias fontes-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--É necessário estar em ordem crescente para funcionar, menor imagem primeiro-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto em tamanho grande">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/imagine.mp3" controls autoplay></audio> <!--Forma mais simples, porém pouco eficiente-->
+    <!--MP3 WAV OGG-->
+    
+    <audio preload="metadata" autoplay controls loop>
+        <!--Utilizando a tag "SOURCE: SRC" é possível adicionar o áudio em diferentes formatos, o navegador vai idenficar aquele que é compatível (na ordem crescente) e rodar o arquivo para o usuário-->
+        <source src="midia/amigo.mp3" type="audio/mpeg">
+        <source src="midia/amigo.ogg" type="audio/ogg">
+        <source src="midia/amigo.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio. <a href="midia/amigo.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

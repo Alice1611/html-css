@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: rgb(255, 224, 178);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(255, 186, 84);
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            box-shadow: inset 3px 3px 3px 3px rgb(100, 100, 100);
+        }
+        nav {
+            background-color: rgb(160, 125, 73);
+            padding: 10px;
+            box-shadow: 1px 1px 1px 1px rgb(100, 100, 100);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main {
+            background-color: rgb(160, 125, 73);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article {
+            background-color: rgb(255, 214, 154);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(255, 186, 84);
+        }
+        footer {
+            background-color: rgb(255, 186, 84);
+            color: rgb(75, 45, 0);
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Utilidades</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Jornalismo do século XXI</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda porro totam sed quos neque architecto aspernatur laboriosam, sit ipsa nam nobis doloribus id, officia quisquam illo nemo! Nihil obcaecati sapiente mollitia, dicta excepturi reiciendis eaque. Nobis exercitationem, est nostrum et mollitia laudantium nemo quaerat error quod sequi odio natus, possimus expedita quia reprehenderit consectetur assumenda. Alias ullam totam consequatur quaerat!</p>
+                <aside>
+                    <p>Artigo escrito por: William Bonner</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Alice Silva</p>
+
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
