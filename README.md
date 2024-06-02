@@ -1,7 +1,7 @@
 # html-css
- Curso de HTML5 e CSS3 do Curso em Vídeo
+ <h3>Curso de HTML5 e CSS3 do Curso em Vídeo</h3>
 
- <h2>Clique nos Links abaixo para executar os exercícios</h2>
+ <h4>Clique nos links abaixo para executar os exercícios</h4>
 
 <a href="https://alice1611.github.io/html-css/exercicios/ex001/">Ex001</a>
 
@@ -81,3 +81,22 @@
     <li><a href="https://alice1611.github.io/html-css/exercicios/ex022/fundo007.html">Fundo007</a></li>
 </ul>
 
+<h4>Clique nos links abaixo para executar os desafios</h4>
+
+<a href="https://alice1611.github.io/html-css/desafios/d001/">Desafio001</a>
+
+<a href="https://alice1611.github.io/html-css/desafios/d002/">Desafio002</a>
+
+<a href="https://alice1611.github.io/html-css/desafios/d003/">Desafio003</a>
+
+<a href="https://alice1611.github.io/html-css/desafios/d004/">Desafio004</a>
+
+<a href="https://alice1611.github.io/html-css/desafios/d005/">Desafio005</a>
+
+<a href="https://alice1611.github.io/html-css/desafios/d006/index1.html">Desafio006</a>
+
+<a href="https://alice1611.github.io/html-css/desafios/d007/">Desafio007</a>
+
+<a href="https://alice1611.github.io/html-css/desafios/d008/">Desafio008</a>
+
+<a href="https://alice1611.github.io/html-css/desafios/d009/">Desafio009</a>
