@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEARD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+<table>
+    <caption>Os 10 estados mais populosos do Brasil</caption>
+    <thead>
+        <tr>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>São Paulo</td>
+            <td class="num">44.411.238</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">20.538.718</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">16.054.524</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class="num">14.141.626</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="num">11.444.380</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td class="num">10.882.965</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class="num">9.058.931</td>
+        </tr>
+        <tr>
+            <td>Ceará</td>
+            <td class="num">8.794.957</td>
+        </tr>
+        <tr>
+            <td>Pará</td>
+            <td class="num">8.121.025</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td class="num">7.610.361</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>151.058.725</strong></td>
+        </tr>
+    </tfoot>
+</table>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis sapiente voluptatem est quae atque officiis. Voluptatibus cupiditate soluta placeat quos itaque blanditiis impedit, eaque voluptatem, error neque reiciendis perspiciatis earum cum consectetur consequatur! Quam, alias. Inventore, deleniti. Nostrum dolores distinctio adipisci enim delectus eaque beatae pariatur quasi possimus velit perspiciatis, similique libero soluta sapiente ipsum. Ullam placeat recusandae alias facilis eveniet corrupti voluptas fuga aspernatur enim doloribus magni animi necessitatibus quaerat voluptates perferendis architecto nam modi illo, nulla voluptate deserunt earum reprehenderit eum. Molestias iste eum, expedita magni deleniti saepe adipisci similique. Dignissimos vero culpa quidem exercitationem possimus deleniti.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis sapiente voluptatem est quae atque officiis. Voluptatibus cupiditate soluta placeat quos itaque blanditiis impedit, eaque voluptatem, error neque reiciendis perspiciatis earum cum consectetur consequatur! Quam, alias. Inventore, deleniti. Nostrum dolores distinctio adipisci enim delectus eaque beatae pariatur quasi possimus velit perspiciatis, similique libero soluta sapiente ipsum. Ullam placeat recusandae alias facilis eveniet corrupti voluptas fuga aspernatur enim doloribus magni animi necessitatibus quaerat voluptates perferendis architecto nam modi illo, nulla voluptate deserunt earum reprehenderit eum. Molestias iste eum, expedita magni deleniti saepe adipisci similique. Dignissimos vero culpa quidem exercitationem possimus deleniti.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis sapiente voluptatem est quae atque officiis. Voluptatibus cupiditate soluta placeat quos itaque blanditiis impedit, eaque voluptatem, error neque reiciendis perspiciatis earum cum consectetur consequatur! Quam, alias. Inventore, deleniti. Nostrum dolores distinctio adipisci enim delectus eaque beatae pariatur quasi possimus velit perspiciatis, similique libero soluta sapiente ipsum. Ullam placeat recusandae alias facilis eveniet corrupti voluptas fuga aspernatur enim doloribus magni animi necessitatibus quaerat voluptates perferendis architecto nam modi illo, nulla voluptate deserunt earum reprehenderit eum. Molestias iste eum, expedita magni deleniti saepe adipisci similique. Dignissimos vero culpa quidem exercitationem possimus deleniti.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis sapiente voluptatem est quae atque officiis. Voluptatibus cupiditate soluta placeat quos itaque blanditiis impedit, eaque voluptatem, error neque reiciendis perspiciatis earum cum consectetur consequatur! Quam, alias. Inventore, deleniti. Nostrum dolores distinctio adipisci enim delectus eaque beatae pariatur quasi possimus velit perspiciatis, similique libero soluta sapiente ipsum. Ullam placeat recusandae alias facilis eveniet corrupti voluptas fuga aspernatur enim doloribus magni animi necessitatibus quaerat voluptates perferendis architecto nam modi illo, nulla voluptate deserunt earum reprehenderit eum. Molestias iste eum, expedita magni deleniti saepe adipisci similique. Dignissimos vero culpa quidem exercitationem possimus deleniti.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis sapiente voluptatem est quae atque officiis. Voluptatibus cupiditate soluta placeat quos itaque blanditiis impedit, eaque voluptatem, error neque reiciendis perspiciatis earum cum consectetur consequatur! Quam, alias. Inventore, deleniti. Nostrum dolores distinctio adipisci enim delectus eaque beatae pariatur quasi possimus velit perspiciatis, similique libero soluta sapiente ipsum. Ullam placeat recusandae alias facilis eveniet corrupti voluptas fuga aspernatur enim doloribus magni animi necessitatibus quaerat voluptates perferendis architecto nam modi illo, nulla voluptate deserunt earum reprehenderit eum. Molestias iste eum, expedita magni deleniti saepe adipisci similique. Dignissimos vero culpa quidem exercitationem possimus deleniti.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis sapiente voluptatem est quae atque officiis. Voluptatibus cupiditate soluta placeat quos itaque blanditiis impedit, eaque voluptatem, error neque reiciendis perspiciatis earum cum consectetur consequatur! Quam, alias. Inventore, deleniti. Nostrum dolores distinctio adipisci enim delectus eaque beatae pariatur quasi possimus velit perspiciatis, similique libero soluta sapiente ipsum. Ullam placeat recusandae alias facilis eveniet corrupti voluptas fuga aspernatur enim doloribus magni animi necessitatibus quaerat voluptates perferendis architecto nam modi illo, nulla voluptate deserunt earum reprehenderit eum. Molestias iste eum, expedita magni deleniti saepe adipisci similique. Dignissimos vero culpa quidem exercitationem possimus deleniti.</p>
+    
+</body>
+</html>
