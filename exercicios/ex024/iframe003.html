@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus odit aliquam, deleniti, quaerat voluptatem eos voluptates dolore fugiat optio consequatur quisquam blanditiis vel. Odit possimus voluptate dolores perferendis laborum.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, maxime assumenda temporibus, nemo fuga ab sint perferendis veritatis distinctio et a! Alias hic maxime excepturi nulla, distinctio quae ipsam rerum assumenda tempore officia autem deleniti unde dignissimos error sunt eveniet ea iusto quibusdam at? Quidem quod dolorum consequatur harum iusto!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti vel quia doloribus sit saepe excepturi nesciunt iure molestias harum blanditiis. Cum, minus atque minima vel, maiores debitis deleniti inventore fuga quia maxime quas itaque doloremque temporibus corporis cupiditate velit asperiores soluta et reprehenderit, veniam aliquam est reiciendis? Accusamus, dolorum maxime. Nostrum facere velit quod error illo perferendis qui nemo nulla, quisquam alias voluptate dolorum repellendus earum excepturi culpa cumque, dolore veritatis harum sunt doloribus provident laudantium perspiciatis? Nostrum, nisi quaerat!</p> <img src='imagem/logo.png'>">
+        <p>Infelizmente seu navegador não é comatível</p>
+    </iframe>
+    
+</body>
+</html>
